@@ -1,0 +1,27 @@
+.aboutActions {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.aboutBackBtn {
+  background: rgba(150, 63, 182, 0.9);
+  color: #ffffff;
+  border: none;
+  padding: 10px 22px;
+  font-size: 13px;
+  font-family: "Goldman", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  border-radius: 999px;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: all 0.25s ease;
+}
+
+.aboutBackBtn:hover {
+  background: #000000;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(107, 179, 167, 0.35);
+}
