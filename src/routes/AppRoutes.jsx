@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router"
+import { HashRouter, Routes, Route } from "react-router-dom"
 import { lazy, Suspense } from "react"
 
 //rutas públicas
@@ -13,7 +13,7 @@ const ErrorPage = lazy(() => import("../pages/ErrorPage/ErrorPage"))
 export const AppRoutes = () => {
 
 return (
-    <BrowserRouter>
+    <HashRouter>
       <Suspense fallback={<h2>Cargando...</h2>}>
       <Routes>
   
@@ -27,6 +27,6 @@ return (
             <Route path="/error" element={<ErrorPage />} />
       </Routes>
       </Suspense>
-    </BrowserRouter>  
+    </HashRouter>  
   )
 }
