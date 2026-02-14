@@ -78,6 +78,13 @@
   font-family: "Electrolize", sans-serif;
 }
 
+.linkcards {
+  display: block;
+  text-decoration: none; 
+  color: inherit;
+  cursor: pointer;
+}
+
 
 @media (max-width: 840px) {
   .proyectsPage {

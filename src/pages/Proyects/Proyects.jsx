@@ -9,7 +9,7 @@ const Proyects = () => {
       <div className="proyectsPage">
         <h2 className="proyectsTitle">MIS PROYECTOS</h2>
         <div className="proyectsGrid">
-          <a
+          <a classname="linkcards"
             href="https://youtu.be/Rd2zsGAc2p8?t=1264"
             target="_blank"
             rel="noopener noreferrer"
@@ -29,7 +29,7 @@ const Proyects = () => {
             </div>
           </a>
 
-          <a
+          <a classname="linkcards"
             href="https://youtu.be/Wx_Ke_tHliI?si=W5TGBNad8758Iu8j"
             target="_blank"
             rel="noopener noreferrer"
@@ -51,7 +51,7 @@ const Proyects = () => {
             </div>
           </a>
 
-          <a
+          <a classname="linkcards"
             href="https://ele-ort99.github.io/thesimpsons/"
             target="_blank"
             rel="noopener noreferrer"
@@ -71,23 +71,22 @@ const Proyects = () => {
             </div>
           </a>
 
-          <a
+          <a classname="linkcards"
             href="https://ele-ort99.github.io/Calculadora-present/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="proyectsCard">
-              <img
-                src={`${base}img/proyects/calculadora.png`}
-                alt="Calculadora"
-              />
-              <h3>Calculadora</h3>
-              <p>
-                Uno de mis primeros proyectos. Es una sencilla calculadora en la
-                que puedes hacer cuentas matemáticas.
-              </p>
-            </div>
-          </a>
+          <div className="proyectsCard">
+            <img
+              src={`${base}img/proyects/calculadora.png`}
+              alt="Calculadora"/>
+            <h3>Calculadora</h3>
+            <p>
+              Uno de mis primeros proyectos. Es una sencilla calculadora en la
+              que puedes hacer cuentas matemáticas.
+            </p>
+          </div>
+              </a>
         </div>
         <BackButton />
       </div>
