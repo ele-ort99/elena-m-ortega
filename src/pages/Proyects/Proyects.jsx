@@ -9,8 +9,10 @@ const Proyects = () => {
       <div className="proyectsPage">
         <h2 className="proyectsTitle">MIS PROYECTOS</h2>
         <div className="proyectsGrid">
-          <div onClick={()=> window.location.href = "https://youtu.be/Rd2zsGAc2p8?t=1264"} className="proyectsCard">
-            <img src={`${base}img/proyects/bruverportada.png`} alt="Brüver" />
+          <div className="proyectsCard">
+            <img src={`${base}img/proyects/bruverportada.png`} 
+            alt="Brüver" 
+            onClick={()=> window.location.href = "https://youtu.be/Rd2zsGAc2p8?t=1264"}/>
             <h3>Brüver</h3>
             <p>
               Página web desarrollada en equipo para una peluquería canina y
@@ -22,10 +24,11 @@ const Proyects = () => {
               citas.
             </p>
           </div>
-          <div onClick={()=> window.location.href ="https://youtu.be/Wx_Ke_tHliI?si=W5TGBNad8758Iu8j"} className="proyectsCard">
+          <div className="proyectsCard">
             <img
               src={`${base}img/proyects/games.png`}
               alt="Directorio del multijuego"
+             onClick={()=> window.location.href ="https://youtu.be/Wx_Ke_tHliI?si=W5TGBNad8758Iu8j"}
             />
             <h3>Directorio del Multijuego</h3>
             <p>
@@ -36,8 +39,10 @@ const Proyects = () => {
               ver los juegos de los demás perfiles registrados.
             </p>
           </div>
-          <div onClick={()=> window.location.href ="https://ele-ort99.github.io/thesimpsons/"} className="proyectsCard">
-            <img src={`${base}img/proyects/simpsons.png`} alt="The Simpsons" />
+          <div className="proyectsCard">
+            <img src={`${base}img/proyects/simpsons.png`} 
+            alt="The Simpsons"
+             onClick={()=> window.location.href ="https://ele-ort99.github.io/thesimpsons/"} />
             <h3>The Simpsons</h3>
             <p>
               En esta sencilla web podrás ver los diferentes personajes de la
@@ -46,10 +51,11 @@ const Proyects = () => {
               más icónicas.
             </p>
           </div>
-          <div onClick={()=> window.location.href ="https://ele-ort99.github.io/Calculadora-present/"} className="proyectsCard">
+          <div className="proyectsCard">
             <img
               src={`${base}img/proyects/calculadora.png`}
               alt="Calculadora"
+              onClick={()=> window.location.href ="https://ele-ort99.github.io/Calculadora-present/"}
             />
             <h3>Calculadora</h3>
             <p>
