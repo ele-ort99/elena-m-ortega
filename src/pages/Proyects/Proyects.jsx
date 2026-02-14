@@ -11,7 +11,12 @@ const Proyects = () => {
         <div className="proyectsGrid">
           <div className="proyectsCard">
             <img src={`${base}img/proyects/bruverportada.png`} alt="Brüver" />
-            <a className="linkcards" href="https://youtu.be/Rd2zsGAc2p8?t=1264">
+            <a
+              className="linkcards"
+              href="https://youtu.be/Rd2zsGAc2p8?t=1264"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h3>Brüver</h3>
             </a>
             <p>
@@ -33,6 +38,8 @@ const Proyects = () => {
             <a
               className="linkcards"
               href="https://youtu.be/Wx_Ke_tHliI?si=W5TGBNad8758Iu8j"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <h3>Directorio del Multijuego</h3>
             </a>
@@ -51,6 +58,8 @@ const Proyects = () => {
             <a
               className="linkcards"
               href="https://ele-ort99.github.io/thesimpsons/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <h3>The Simpsons</h3>
             </a>
@@ -66,6 +75,8 @@ const Proyects = () => {
             <img
               src={`${base}img/proyects/calculadora.png`}
               alt="Calculadora"
+              target="_blank"
+              rel="noopener noreferrer"
             />
             <a
               className="linkcards"
