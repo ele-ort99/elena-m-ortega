@@ -3,6 +3,7 @@ import { BackButton } from '../../components/backButton/BackButton';
 
 
 const About = () => {
+  const base = import.meta.env.BASE_URL;
   return (
     <section className="aboutPage">
       <section>
@@ -22,7 +23,7 @@ const About = () => {
             </p>
           </div>
           <div className="imgEle">
-            <img src="/img/about/elena.jpg" alt="Elena" />
+            <img src={`${base}img/about/elena.jpg`} alt="Elena" />
           </div>
         </div>
       </section>
@@ -36,7 +37,7 @@ const About = () => {
           <div className="flipCard">
             <div className="flipCardInner">
               <div className="flipCardFront">
-                <img src="/img/about/socratech.png" alt="Sócratech" />
+                <img src={`${base}img/about/socratech.png`} alt="Sócratech" />
               </div>
 
               <div className="flipCardBack">
@@ -56,7 +57,7 @@ const About = () => {
           <div className="flipCard">
             <div className="flipCardInner">
               <div className="flipCardFront">
-                <img src="/img/about/uma.png" alt="UMA" />
+                 <img src={`${base}img/about/uma.png`} alt="UMA" />
               </div>
 
               <div className="flipCardBack">
@@ -75,7 +76,7 @@ const About = () => {
           <div className="flipCard">
             <div className="flipCardInner">
               <div className="flipCardFront">
-                <img src="/img/about/cammia.png" alt="CAMMIA" />
+                <img src={`${base}img/about/cammia.png`} alt="CAMMIA" />
               </div>
 
               <div className="flipCardBack">
@@ -95,7 +96,7 @@ const About = () => {
             <div className="miniFlipCardAbout">
               <div className="miniFlipInnerAbout">
                 <div className="miniFlipFrontAbout">
-                  <img src="/img/about/udemy.png" alt="Udemy" />
+                  <img src={`${base}img/about/udemy.png`} alt="Udemy" />
                 </div>
                 <div className="miniFlipBackAbout">
                   <p>JavaScriptTotal</p>
@@ -107,7 +108,7 @@ const About = () => {
             <div className="miniFlipCardAbout">
               <div className="miniFlipInnerAbout">
                 <div className="miniFlipFrontAbout">
-                  <img src="/img/about/ieducando.png" alt="IEducando" />
+                  <img src={`${base}img/about/ieducando.png`} alt="IEducando" />
                 </div>
                 <div className="miniFlipBackAbout">
                   <p>IEducando Level 2</p>
@@ -127,7 +128,7 @@ const About = () => {
           <div className="flipCard">
             <div className="flipCardInner">
               <div className="flipCardFront">
-                <img src="/img/about/bruver.png" alt="Brüver" />
+                <img src={`${base}img/about/bruver.png`} alt="Brüver" />
               </div>
               <div className="flipCardBack">
                 <ul>
@@ -149,7 +150,7 @@ const About = () => {
           <div className="flipCard">
             <div className="flipCardInner">
               <div className="flipCardFront">
-                <img src="/img/about/mediterránea.jpg" alt="Mediterránea" />
+                <img src={`${base}img/about/mediterránea.jpg`} alt="Mediterránea" />
               </div>
               <div className="flipCardBack">
                 <ul>
@@ -170,7 +171,7 @@ const About = () => {
           <div className="flipCard">
             <div className="flipCardInner">
               <div className="flipCardFront">
-                <img src="/img/about/apa.png" alt="APA" />
+                 <img src={`${base}img/about/apa.png`} alt="APA" />
               </div>
               <div className="flipCardBack">
                 <ul>
@@ -190,7 +191,7 @@ const About = () => {
             <div className="miniFlipCardAbout">
               <div className="miniFlipInnerAbout">
                 <div className="miniFlipFrontAbout">
-                  <img src="/img/about/limpieza.png" alt="udemy" />
+                  <img src={`${base}img/about/limpieza.png`} alt="Limpieza" />
                 </div>
                 <div className="miniFlipBackAbout">
                   <p>Limpieza</p>
@@ -204,7 +205,7 @@ const About = () => {
             <div className="miniFlipCardAbout">
               <div className="miniFlipInnerAbout">
                 <div className="miniFlipFrontAbout">
-                  <img src="/img/about/ventas.png" alt="" />
+                   <img src={`${base}img/about/ventas.png`} alt="Ventas" />
                 </div>
                 <div className="miniFlipBackAbout">
                   <p>Cara al público</p>
@@ -216,7 +217,7 @@ const About = () => {
             <div className="miniFlipCardAbout">
               <div className="miniFlipInnerAbout">
                 <div className="miniFlipFrontAbout">
-                  <img src="/img/about/campamentos.png" alt="" />
+                  <img src={`${base}img/about/campamentos.png`} alt="Campamentos" />
                 </div>
                 <div className="miniFlipBackAbout">
                   <p>Campamentos</p>

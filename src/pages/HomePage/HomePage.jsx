@@ -1,7 +1,9 @@
 import './HomePage.css';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
+  const base = import.meta.env.BASE_URL;
+
   return (
     <section className="home">
       <section className="hero">
@@ -16,7 +18,7 @@ const HomePage = () => {
             <div className="infoImgWrap">
               <img
                 className="infoImg"
-                src="/img/home/skills-home.jpg"
+                src={`${base}img/home/skills-home.jpg`}
                 alt="Skills"
               />
             </div>
@@ -29,7 +31,7 @@ const HomePage = () => {
             <div className="infoImgWrap">
               <img
                 className="infoImg"
-                src="/img/home/about-home3.jpg"
+                src={`${base}img/home/about-home3.jpg`}
                 alt="About"
               />
             </div>
@@ -42,7 +44,7 @@ const HomePage = () => {
             <div className="infoImgWrap">
               <img
                 className="infoImg"
-                src="/img/home/proyectos-home.jpg"
+                src={`${base}img/home/proyectos-home.jpg`}
                 alt="Proyectos"
               />
             </div>

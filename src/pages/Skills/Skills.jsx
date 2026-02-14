@@ -2,6 +2,8 @@ import './skills.css';
 import { BackButton } from '../../components/backButton/BackButton';
 
 const Skills = () => {
+  const base = import.meta.env.BASE_URL; // 🔹 base para GitHub Pages
+
   return (
     <section className="skillsPage">
       <h2 className="aboutTitle">MIS SKILLS</h2>
@@ -9,7 +11,7 @@ const Skills = () => {
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-              <img src="/img/skills/html.png" alt="HTML" />
+              <img src={`${base}img/skills/html.png`} alt="HTML" />
             </div>
             <div className="miniFlipBack">
               <p>HTML</p>
@@ -19,10 +21,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-              <img src="/img/skills/css.png" alt="CSS" />
+              <img src={`${base}img/skills/css.png`} alt="CSS" />
             </div>
             <div className="miniFlipBack">
               <p>CSS</p>
@@ -32,10 +35,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-              <img src="/img/skills/js.png" alt="JavaScript" />
+              <img src={`${base}img/skills/js.png`} alt="JavaScript" />
             </div>
             <div className="miniFlipBack">
               <p>JavaScript</p>
@@ -45,10 +49,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-              <img src="/img/skills/bootstrap.png" alt="Bootstrap" />
+              <img src={`${base}img/skills/bootstrap.png`} alt="Bootstrap" />
             </div>
             <div className="miniFlipBack">
               <p>Bootstrap</p>
@@ -58,10 +63,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-                <img src="/img/skills/figma.png" alt="Figma" />
+                <img src={`${base}img/skills/figma.png`} alt="Figma" />
             </div>
             <div className="miniFlipBack">
               <p>Figma</p>
@@ -75,7 +81,7 @@ const Skills = () => {
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-               <img src="/img/skills/express-js.png" alt="Express-JS" />
+               <img src={`${base}img/skills/express-js.png`} alt="Express-JS" />
             </div>
             <div className="miniFlipBack">
               <p>Express.js</p>
@@ -87,7 +93,7 @@ const Skills = () => {
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-                <img src="/img/skills/node.png" alt="Node" />
+                <img src={`${base}img/skills/node.png`} alt="Node" />
             </div>
             <div className="miniFlipBack">
               <p>Node.js</p>
@@ -97,10 +103,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-                <img src="/img/skills/react.png" alt="REACT" />
+                <img src={`${base}img/skills/react.png`} alt="REACT" />
             </div>
             <div className="miniFlipBack">
               <p>React</p>
@@ -110,10 +117,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-                <img src="/img/skills/mysql.png" alt="MYSQL" />
+                <img src={`${base}img/skills/mysql.png`} alt="MYSQL" />
             </div>
             <div className="miniFlipBack">
               <p>MySQL</p>
@@ -123,10 +131,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-                <img src="/img/skills/scrum.png" alt="SCRUM" />
+                <img src={`${base}img/skills/scrum.png`} alt="SCRUM" />
             </div>
             <div className="miniFlipBack">
               <p>SCRUM</p>
@@ -136,10 +145,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-                <img src="/img/skills/trello.png" alt="Trello" />
+                <img src={`${base}img/skills/trello.png`} alt="Trello" />
             </div>
             <div className="miniFlipBack">
               <p>Trello</p>
@@ -149,10 +159,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-                <img src="/img/skills/zod.jpg" alt="ZOD" />
+                <img src={`${base}img/skills/zod.jpg`} alt="ZOD" />
             </div>
             <div className="miniFlipBack">
               <p>Zod</p>
@@ -162,10 +173,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-                <img src="/img/skills/jsonwebtoken.png" alt="Json Web Token" />
+                <img src={`${base}img/skills/jsonwebtoken.png`} alt="Json Web Token" />
             </div>
             <div className="miniFlipBack">
               <p>Json Web Token</p>
@@ -175,10 +187,11 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
         <div className="miniFlipCard">
           <div className="miniFlipInner">
             <div className="miniFlipFront">
-                <img src="/img/skills/nodemailer.jpg" alt="Nodemailer" />
+                <img src={`${base}img/skills/nodemailer.jpg`} alt="Nodemailer" />
             </div>
             <div className="miniFlipBack">
               <p>Nodemailer</p>
@@ -193,4 +206,5 @@ const Skills = () => {
     </section>
   );
 };
+
 export default Skills;
