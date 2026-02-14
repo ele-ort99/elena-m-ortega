@@ -72,17 +72,21 @@
 .proyectsCard p {
   font-size: 20px;
   font-weight: bold;
-  padding: 0 26px 30px;
+  padding: 0  30px;
   color: #000000;
   line-height: 1.6;
   font-family: "Electrolize", sans-serif;
 }
 
 .linkcards {
-  display: block;
-  text-decoration: none; 
-  color: inherit;
+  margin-bottom: 50px;
+  color: black;
   cursor: pointer;
+}
+
+.clickimg{
+  width: 5px;
+  height: 5px;
 }
 
 
