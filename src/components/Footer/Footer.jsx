@@ -72,7 +72,7 @@ export const Footer = () => {
                   aria-label="Email"
                   onClick={(e) => {
                     e.preventDefault();
-                    window.location.href = "mailto:elenaptlaboral@gmail.com?subject=Consulta%20BR%C3%9CVER&body=Hola,%20quiero%20informaci%C3%B3n.";
+                    window.location.href = "mailto:elenaptlaboral@gmail.com?subject=" + encodeURIComponent("Contacto Portfolio") + "&body=" + encodeURIComponent("¡Hola! He visto tu portfolio y quiero contactar contigo.");
                   }}
                 >
                   <FaEnvelope />
