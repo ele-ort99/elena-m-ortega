@@ -1,1 +1,0 @@
-import{u as s,j as t}from"./index-DCJm0z1c.js";const o=()=>{const a=s();return t.jsx("div",{className:"aboutActions",children:t.jsx("button",{type:"button",onClick:()=>a("/"),className:"aboutBackBtn",children:"VOLVER"})})};export{o as B};
